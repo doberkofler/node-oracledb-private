@@ -1,4 +1,5 @@
-/* Copyright (c) 2015, Oracle and/or its affiliates. All rights reserved. */
+/* Copyright (c) 2015, 2016, Oracle and/or its affiliates.
+   All rights reserved. */
 
 /******************************************************************************
  *
@@ -64,6 +65,7 @@ using namespace dpi;
 
 class Connection;
 class ProtoILob;
+
 
 /**
 * Structure used for binds
@@ -360,10 +362,6 @@ private:
 
   static void GetOutBindParams (unsigned short dataType, Bind* bind,
                                 eBaton* executeBaton);
-  static void GetOutBindParamsScalar (unsigned short dataType, Bind* bind,
-                                      eBaton* executeBaton);
-  static void GetOutBindParamsArray (unsigned short dataType, Bind* bind,
-                                     eBaton* executeBaton);
   static void Descr2Double ( Define* defines, unsigned int numCols,
                              unsigned int rowsFetched, bool getRS );
   static void Descr2protoILob ( eBaton *executeBaton, unsigned int numCols,
@@ -389,9 +387,8 @@ private:
   // for lobs
   static v8::Local<v8::Value> GetValueLob (eBaton *executeBaton, 
                                             Bind *bind);
-  //static void UpdateDateValue ( eBaton *executeBaton );
   static void UpdateDateValue ( eBaton *executeBaton, unsigned int index );
-  static long double v8Date2OraDate(v8::Local<v8::Value> val);
+  static void v8Date2OraDate(v8::Local<v8::Value> val, Bind *bind);
   static ConnectionBusyStatus getConnectionBusyStatus ( Connection *conn );
 
   // Callback/Utility function used to allocate buffer(s) for Bind Structs
@@ -418,6 +415,43 @@ private:
   // NewLob Method on Connection class
   static v8::Local<v8::Value> NewLob(eBaton* executeBaton,
                                       ProtoILob *protoILob);
+
+  static inline ValueType GetValueType ( v8::Local<v8::Value> v )
+  {
+    ValueType type = VALUETYPE_INVALID;
+    
+    if ( v->IsUndefined () || v->IsNull () )
+    {
+      type = VALUETYPE_NULL;
+    }
+    else if ( v->IsString () )
+    {
+      type = VALUETYPE_STRING;
+    }
+    else if ( v->IsInt32 () )
+    {
+      type = VALUETYPE_INTEGER;
+    }
+    else if ( v->IsUint32 () )
+    {
+      type = VALUETYPE_UINTEGER;
+    }
+    else if ( v->IsNumber () )
+    {
+      type = VALUETYPE_NUMBER;
+    }
+    else if ( v->IsDate () )
+    {
+      type = VALUETYPE_DATE;
+    }
+    else if ( v->IsObject () )
+    {
+      type = VALUETYPE_OBJECT;
+    }
+
+    return type;
+  }
+  
 
   dpi::Conn*     dpiconn_;
   bool           isValid_;

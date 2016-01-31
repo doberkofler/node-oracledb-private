@@ -1,4 +1,5 @@
-/* Copyright (c) 2015, Oracle and/or its affiliates. All rights reserved. */
+/* Copyright (c) 2015, 2016, Oracle and/or its affiliates.
+   All rights reserved. */
 
 /******************************************************************************
  *
@@ -66,7 +67,13 @@ typedef enum
   errBusyConnRS,
   errBusyConnDB,
   errInternalError,
-  errInvalidBindArray,
+  errInvalidTypeForArrayBind,
+  errReqdMaxArraySize,
+  errInvalidArraySize,
+  errIncompatibleTypeArrayBind,
+  errInvalidValueArrayBind,
+  errEmptyArray,
+  
 
   // New ones should be added here
 
