@@ -77,8 +77,8 @@ describe('43. PL/SQL binds', function() {
         },
         function(callback) {
           var bindvars = {
-            strings:  {type: oracledb.STRING, dir: oracledb.BIND_IN, val: [null, 'John', 'Doe']},
-            numbers: {type: oracledb.NUMBER, dir: oracledb.BIND_IN, val: [null, 8, 11]},
+            strings:  {type: oracledb.STRING, dir: oracledb.BIND_IN, val: ['John', null, 'Doe']},
+            numbers: {type: oracledb.NUMBER, dir: oracledb.BIND_IN, val: [8, null, 11]},
             result: {type: oracledb.STRING, dir: oracledb.BIND_OUT, maxSize: 2000}
           };
           connection.execute(
@@ -87,7 +87,7 @@ describe('43. PL/SQL binds', function() {
             function(err, result) {
               should.not.exist(err);
               // console.log(result);
-              result.outBinds.result.should.be.exactly('NULLJohnDoe0811');
+              result.outBinds.result.should.be.exactly('JohnNULLDoe8011');
               callback();
             }
           );

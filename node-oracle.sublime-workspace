@@ -1,0 +1,1394 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/njs/src/njsConnection.h",
+			"settings":
+			{
+				"buffer_size": 16498,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/njs/src/njsConnection.cpp",
+			"settings":
+			{
+				"buffer_size": 127567,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test/PLSQLbinds.js",
+			"settings":
+			{
+				"buffer_size": 24939,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/dpi/src/dpiStmtImpl.cpp",
+			"settings":
+			{
+				"buffer_size": 20687,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/dpi/include/dpiStmt.h",
+			"settings":
+			{
+				"buffer_size": 6530,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/njs/src/njsMessages.cpp",
+			"settings":
+			{
+				"buffer_size": 3449,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/njs/src/njsMessages.h",
+			"settings":
+			{
+				"buffer_size": 2237,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Upgrade/Overwrite All Packages"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 294.0,
+		"history":
+		[
+			"bh_toggle_enable",
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"sublimelinter_lint",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/MyDev/doberkofler/node-oracledb",
+		"/D/MyDev/doberkofler/node-oracledb/src",
+		"/D/MyDev/doberkofler/node-oracledb/src/dpi",
+		"/D/MyDev/doberkofler/node-oracledb/src/dpi/include",
+		"/D/MyDev/doberkofler/node-oracledb/src/dpi/src",
+		"/D/MyDev/doberkofler/node-oracledb/src/njs",
+		"/D/MyDev/doberkofler/node-oracledb/src/njs/src"
+	],
+	"file_history":
+	[
+		"/C/Users/doberkofler.LBITS/Desktop/index.html",
+		"/C/Users/doberkofler.LBITS/Desktop/t.html",
+		"/E/downloads/Testing/oci_test/oci_test.cpp",
+		"/E/Dropbox/writer/UPC.txt",
+		"/D/MyDev/doberkofler/node-oracledb/test/PLSQLbinds.js",
+		"/D/MyDev/doberkofler/node-oracledb/test/t.js",
+		"/D/MyDev/doberkofler/node-oracledb/binding.gyp",
+		"/D/MyDev/doberkofler/node-oracledb/test/binding.js",
+		"/D/MyDev/doberkofler/node-oracledb/test/clobPlsqlString.js",
+		"/D/MyDev/doberkofler/node-oracledb/test/dmlReturning.js",
+		"/D/MyDev/doberkofler/node-oracledb/src/njs/src/njsDebug.cpp",
+		"/D/MyDev/doberkofler/node-oracledb/src/dpi/src/dpiConnImpl.h",
+		"/D/MyDev/doberkofler/node-oracledb/src/dpi/src/dpiConnImpl.cpp",
+		"/D/MyDev/doberkofler/node-oracledb/src/njs/src/njsDebug.h",
+		"/D/MyDev/doberkofler/node-oracledb/src/dpi/include/dpiStmt.h",
+		"/D/MyDev/doberkofler/node-oracledb/src/dpi/src/dpiStmtImpl.h",
+		"/D/MyDev/doberkofler/node-oracledb/src/dpi/src/dpiStmtImpl.cpp",
+		"/D/MyDev/ljs_app/trunk/periscope/build/src/modules/las_dlg_md_addresses/addresses.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/package.json",
+		"/D/MyDev/doberkofler/node-oracledb/package.json",
+		"/D/MyDev/doberkofler/node-oracledb/src/njs/src/njsMessages.cpp",
+		"/D/MyDev/doberkofler/node-oracledb/src/njs/src/njsMessages.h",
+		"/D/MyDev/doberkofler/node-oracledb/.git/rebase-merge/git-rebase-todo",
+		"/D/MyDev/doberkofler/node-oracledb/test/accessTerminatedPoolAttributes.js",
+		"/D/MyDev/doberkofler/node-oracledb/my_test.js",
+		"/D/MyDev/doberkofler/node-oracledb/test/nullColumnValues.js",
+		"/D/MyDev/doberkofler/node-oracledb/src/njs/src/njsUtils.h",
+		"/D/MyDev/doberkofler/node-oracledb/src/njs/src/njsUtils.cpp",
+		"/D/MyDev/doberkofler/node-oracledb/src/dpi/src/dpiDateTimeArrayImpl.cpp",
+		"/D/MyDev/doberkofler/node-oracledb/debug.h",
+		"/C/Users/doberkofler.LBITS/Documents/dtr_home.htm",
+		"/D/MyDev/ljs_app/trunk/ljs_db/LJS_DB/UnitTest/UnitTests.log",
+		"/D/MyDev/ljs_app/trunk/ljs_db/LJS_DB/UnitTest/unittests/LAS_SUB_CIHeader_ut.pkb",
+		"/D/MyDev/ljs_app/trunk/ljs_db/LJS_DB/TestData/data/default/gen_02_20_010_ClientInvoice.sql",
+		"/D/MyDev/ljs_app/trunk/ljs_db/LJS_DB/TestData/data/default/gen_02_10_040_Job.sql",
+		"/D/MyDev/ljs_app/trunk/ljs_db/LJS_DB/UnitTest/unittests/las_rep_jobsurvey_ut.pkb",
+		"/D/MyDev/ljs_app/trunk/ljs_db/LJS_DB/UnitTest/unittests/las_rep_jobcard_ut.pkb",
+		"/D/MyDev/ljs_app/trunk/periscope/build/test/selenium.js/tests/4-modules/las_mod_timesheet.js",
+		"/D/MyDev/doberkofler/node-oracledb/src/dpi/src/dpiEnvImpl.cpp",
+		"/D/MyDev/ljs_app/trunk/examples/oci/test_plsql_arrays.cpp",
+		"/D/MyDev/ljs_app/trunk/examples/oci/main.cpp",
+		"/D/MyDev/ljs_app/trunk/examples/oci/test_array_fetch.cpp",
+		"/D/MyDev/ljs_app/trunk/examples/oci/oci_interface.h",
+		"/D/MyDev/ljs_app/trunk/examples/oci/oci_interface.cpp",
+		"/D/MyDev/ljs_app/trunk/examples/oci/CMakeLists.txt",
+		"/D/MyDev/ljs_app/trunk/examples/oci/main.h",
+		"/D/MyDev/doberkofler/node_plsql/test/ocip/ocip.cc",
+		"/D/MyDev/doberkofler/eslint/.git/config",
+		"/D/MyDev/doberkofler/eslint/.editorconfig",
+		"/D/MyDev/ljs_app/trunk/periscope/build/.eslintrc",
+		"/D/MyDev/ljs_app/trunk/periscope/build/src/modules/tst_dlg_list/tst_dlg_test_table.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/src/modules/las_dlg_prm_teamoverview/las_dlg_prm_teamoverview.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/.eslintrc.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/Gulpfile.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/gulp/config.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/test/selenium.js/helper/periscope.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/test/selenium.js/tests/1-helper/periscope.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/test/selenium.js/helper/webdriver-utilities.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/test/selenium.js/helper/utilities.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/test/selenium.js/tests/1-helper/webdriver-utilities.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/test/selenium.js/tests/1-helper/utilities.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/test/selenium.js/tests/2-common/las_dlg_error.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/test/selenium.js/tests/2-common/ods_dlg_form.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/test/selenium.js/tests/2-common/signin.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/test/selenium.js/tests/4-modules/las_dlg_communication.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/test/selenium.js/tests/4-modules/las_mod_job.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/test/selenium.js/tests/4-modules/las_dlg_timereportstopwatch.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/test/selenium.js/tests/4-modules/las_dlg_projecttaskempl.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/test/selenium.js/tests/4-modules/las_dlg_joblist.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/test/selenium.js/tests/3-dashboard/widget_userdefined.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/test/selenium.js/tests/3-dashboard/widget_projectreport.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/test/selenium.js/tests/3-dashboard/widget_collaboration.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/test/selenium.js/tests/1-helper/webdriver-utilities.html",
+		"/D/MyDev/ljs_app/trunk/periscope/build/test/selenium.js/tests/test.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/test/selenium.js/tests/0100_uti_signin.js",
+		"/D/MyDev/doberkofler/node-oracledb/test/resultSet1.js",
+		"/D/MyDev/doberkofler/node-oracledb/test/autoCommitForSelect.js",
+		"/D/oracle/product/12.1.0/dbhome_1/OCI/include/ocidfn.h",
+		"/D/oracle/product/12.1.0/dbhome_1/OCI/include/oci.h",
+		"/D/oracle/product/12.1.0/dbhome_1/OCI/include/ociapr.h",
+		"/D/oracle/product/12.1.0/dbhome_1/OCI/include/ocidef.h",
+		"/D/oracle/product/12.1.0/dbhome_1/OCI/include/oratypes.h",
+		"/D/oracle/product/12.1.0/dbhome_1/OCI/include/ociap.h",
+		"/D/MyDev/doberkofler/node-oracledb/test/dataTypeTimestamp1.js",
+		"/D/MyDev/doberkofler/node-oracledb/test/dataTypeAssist.js",
+		"/D/MyDev/doberkofler/node-oracledb/test/dataTypeTimestamp4.js",
+		"/D/MyDev/doberkofler/node-oracledb/test/dataTypeTimestamp5.js",
+		"/D/MyDev/doberkofler/node-oracledb/test/dataTypeTimestamp2.js",
+		"/D/MyDev/doberkofler/node-oracledb/test/dataTypeTimestamp3.js",
+		"/D/MyDev/doberkofler/node-oracledb/test/dataTypeTimestamp6.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/test/selenium.js/tests/2000_las_mod_timesheet.js",
+		"/D/MyDev/doberkofler/node-oracledb/src/njs/src/debug.cpp",
+		"/D/MyDev/doberkofler/node-oracledb/src/dpi/src/dpiExceptionImpl.cpp",
+		"/D/MyDev/doberkofler/node-oracledb/src/dpi/src/dpiException.cpp",
+		"/D/MyDev/doberkofler/node-oracledb/src/dpi/src/dpiUtils.cpp",
+		"/D/MyDev/doberkofler/node-oracledb/src/dpi/src/dpiEnvImpl.h",
+		"/D/MyDev/doberkofler/node-oracledb/src/dpi/src/dpiUtils.h",
+		"/D/MyDev/doberkofler/node-oracledb - MY VERSION/src/njs/src/njsConnection.cpp",
+		"/D/MyDev/ljs_app/trunk/periscope/examples/Selenium/basic/package.json",
+		"/D/MyDev/ljs_app/trunk/periscope/examples/Selenium/basic/test.js",
+		"/D/MyDev/doberkofler/node-oracledb - MY VERSION/src/njs/src/debug.cpp",
+		"/D/MyDev/doberkofler/node-oracledb - MY VERSION/runMocha.js",
+		"/D/MyDev/doberkofler/node-oracledb - MY VERSION/src/njs/src/njsMessages.cpp",
+		"/D/MyDev/doberkofler/node-oracledb - MY VERSION/src/njs/src/njsMessages.h",
+		"/D/MyDev/doberkofler/node-oracledb/test.js",
+		"/E/downloads/test.sql",
+		"/D/MyDev/doberkofler/node-oracledb/build.cmd",
+		"/D/MyDev/doberkofler/node-oracledb/runMocha.js",
+		"/D/MyDev/doberkofler/node-oracledb/test/dbConfig.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/test/frontend/ods/UiElement.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/src/ods/js/ods.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/test/frontend/core/UiFormatter.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/src/ods/js/UiElement.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/gulp/tasks.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/test/frontend/ods/ods.convert.js",
+		"/D/MyDev/ljs_app/trunk/periscope/build/test/frontend/ods/UiTable.js",
+		"/D/MyDev/ljs_app/tags/080300/periscope/build/test/frontend/ods/ods.ui.table.js",
+		"/D/MyDev/doberkofler/node-oracledb/src/njs/src/njsOracle.cpp",
+		"/D/MyDev/doberkofler/node-oracledb/src/njs/src/njsConnection.cpp",
+		"/D/MyDev/doberkofler/node-oracledb/src/njs/src/njsConnection.h",
+		"/D/MyDev/doberkofler/node-oracledb/test/bindingArray.js",
+		"/C/Users/doberkofler.LBITS/Desktop/sr/test.log",
+		"/C/Users/doberkofler.LBITS/Desktop/test.sql",
+		"/D/MyDev/doberkofler/node-oracledb/lib/oracledb.js",
+		"/E/Dropbox/node-oracle/index.js",
+		"/D/MyDev/doberkofler/node-oracledb/test/dataTypeRaw.js",
+		"/D/MyDev/doberkofler/node-oracledb/test/dataTypeChar.js",
+		"/D/MyDev/doberkofler/node-oracledb/src/dpi/src/dpiExceptionImpl.h"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"D:\\MyDev\\doberkofler\\node-oracledb\\src,D:\\MyDev\\doberkofler\\node-oracledb\\test",
+			"D:\\MyDev\\doberkofler\\node-oracledb\\src",
+			"",
+			"D:\\MyDev\\doberkofler\\node_plsql\\lib,D:\\MyDev\\doberkofler\\node_plsql\\test,D:\\MyDev\\doberkofler\\node_plsql\\src",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\test,D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\PACKAGES",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\test,D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\PACKAGES,D:\\MyDev\\doberkofler\\eslint\\lib\\rules",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\test,D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\PACKAGES",
+			"D:\\MyDev\\doberkofler\\node_plsql,*.js",
+			"D:\\MyDev\\doberkofler\\node_plsql",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\test,D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\PACKAGES",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\node_modules\\selenium-webdriver,*.js",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\node_modules\\selenium-webdriver",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\test,D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\PACKAGES",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\PACKAGES",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\PACKAGES",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\test,*.js",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\node_modules\\selenium-webdriver",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\PACKAGES",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\node_modules\\selenium-webdriver",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\test,*.js",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\PACKAGES",
+			"D:\\MyDev\\doberkofler\\eslint",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\PACKAGES",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,*.js",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\test,*.js",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,*.js",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\PACKAGES",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,*.js",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\PACKAGES",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,*.js",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\PACKAGES",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,*.js",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\PACKAGES",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,*.js",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\PACKAGES",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,*.js",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\PACKAGES",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,*.js",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\PACKAGES",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,*.js",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\PACKAGES",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,*.js",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\PACKAGES",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,*.js",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\PACKAGES",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\PACKAGES,D:\\MyDev\\ljs_app\\trunk\\ljs",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\PACKAGES",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\test\\selenium",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,*.js",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\PACKAGES",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\test\\selenium",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\test\\selenium\\tests",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,*.js",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\PACKAGES",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,*.js",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\src",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\PACKAGES",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\packages",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\CLI_DB",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\packages",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\packages",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\libs,D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\packages",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\packages",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build,D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\packages",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\packages",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\packages",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\ljs_db\\packages",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\test",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\PACKAGES",
+			"$(",
+			"D:\\MyDev\\doberkofler\\node_plsql\\test",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\libs,D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\test",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src,D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\lib,D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\test",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope,-node_modules",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope,-D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\node_modules",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\TestData",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\UnitTest",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\node_modules\\gulp",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB",
+			"D:\\MyDev\\doberkofler\\node_plsql\\test",
+			"D:\\MyDev\\doberkofler\\node_plsql\\lib",
+			"D:\\MyDev\\doberkofler\\node_plsql\\test",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB",
+			"E:\\TEMP\\thoth-gateway-1-3-7\\source\\PLSQLGatewayModule",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\PACKAGES",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB",
+			"D:\\MyDev\\doberkofler\\node_plsql",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB",
+			"D:\\MyDev\\doberkofler\\node_plsql",
+			"C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\VC\\include",
+			"D:\\MyDev\\doberkofler\\node_plsql",
+			"E:\\TEMP\\thoth-gateway-1-3-7\\source\\PLSQLGatewayModule",
+			"D:\\MyDev\\doberkofler\\node_plsql",
+			"D:\\MyDev\\doberkofler\\node_plsql\\src",
+			"D:\\instantclient_12_1_x64\\sdk\\include",
+			"E:\\TEMP\\ocilib-3.12.1",
+			"D:\\instantclient_12_1_x64\\sdk",
+			"D:\\MyDev\\ljs_app\\trunk",
+			"E:\\TEMP\\thoth-gateway-1-3-7\\source\\PLSQLGatewayModule",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB\\PACKAGES",
+			"D:\\MyDev\\doberkofler\\node-plsql_server\\src",
+			"D:\\MyDev\\doberkofler\\node-plsql_server\\node_modules\\chai",
+			"D:\\MyDev\\doberkofler\\node-plsql_server\\node_modules\\chai\\lib",
+			"D:\\instantclient_12_1_x64\\sdk\\include",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB,D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\src",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB,D:\\MyDev\\ljs_app\\trunk\\periscope\\build",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB,D:\\MyDev\\ljs_app\\trunk\\periscope",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB D:\\MyDev\\ljs_app\\trunk\\periscope",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB,D:\\MyDev\\ljs_app\\trunk\\periscope",
+			"D:\\MyDev\\ljs_app\\trunk\\ljs_db\\LJS_DB",
+			"D:\\MyDev\\ljs_app\\trunk\\periscope"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"debug",
+			"dump",
+			"std::cout",
+			"(executeBaton->binds[index]->isArray)",
+			"(executeBaton->binds[index]->isArray) ? executeBaton->binds[index]->len2 : executeBaton->binds[index]->len",
+			"bind",
+			"DPIBINDBYPOS",
+			"bind",
+			":1",
+			"position",
+			"std::",
+			"bind by position",
+			"bind(",
+			"DATA_STR",
+			"Array",
+			"PrepareAndBind",
+			"bind",
+			"showForm",
+			"on",
+			"ctry",
+			"ctrycode",
+			"CTRYNAME",
+			"ctryname",
+			"CTRYNAME",
+			"ctryname",
+			"DPIBINDBYPOS",
+			"GetInBindParams",
+			"number",
+			"NJS-030: invalid (array)",
+			"NJS-030",
+			"len2",
+			"malloc(",
+			"free(",
+			"free",
+			"malloc",
+			"NJS-030",
+			"errInvalidBindArray",
+			"err.",
+			"err.should.be",
+			"debug",
+			"42.",
+			"43.",
+			"NJSDebug",
+			"njsDe",
+			"getBindDataType",
+			"dump",
+			"toString",
+			"DpiDataType",
+			"dpiStmt.h",
+			"DpiDataType",
+			"msToString",
+			".h",
+			"Local",
+			"yyy",
+			"namespace",
+			"console",
+			"yyy",
+			"AllocateBindArray",
+			"invalid case for value",
+			"AllocateBindArray",
+			"Allocate",
+			"yyy",
+			"arrayElementSize",
+			"PrepareAndBind",
+			"Async_Execute",
+			"stmtType",
+			"executeBaton->st",
+			"DpiStmtBegin",
+			"yyy",
+			"GetOutBinds",
+			"GetOutBindArray",
+			"numOutBinds",
+			"#if D",
+			"DEBUG",
+			"ProcessBinds",
+			"bind->isOut",
+			"yyy",
+			"bufferSize",
+			"noOfValues",
+			"getErrorMsg",
+			"maxArraySize",
+			"len2",
+			"curArraySize",
+			"currArraySize",
+			"yyy",
+			"GetArrayValue",
+			"isArray",
+			"GetArrayValue",
+			"2592",
+			"curArraySize",
+			"maxArraySize",
+			"GetValue",
+			"yyy",
+			"GetBinds",
+			"GetValue",
+			"yyy",
+			"property must be specified and only BIND_IN",
+			"BIND_IN",
+			"GetOutBindObject",
+			"GetOutBinds",
+			"outBinds",
+			"maxSize",
+			"NJS_MAX_OUT_BIND_SIZE",
+			"maxSize",
+			"Async_Execute",
+			"ProcessBinds",
+			"GetBinds",
+			"GetBindUnit",
+			"GetOutBindParams",
+			"NJS_GET_UINT_FROM_JSON",
+			"TST-TST-4-2013",
+			"aJobID",
+			"TST-TST-4-2013",
+			"4: CI MODULE",
+			"subg",
+			"GetInBindParams",
+			"GetOutBindParams",
+			"yyy",
+			"GetTargetType",
+			"SourceDBType2TargetDBType",
+			"OCI_DTYPE_TIMESTAMP_",
+			"DPIBINDBYNAME",
+			"OCIBindByName",
+			"Timestamp",
+			"TimestampLZ",
+			"define",
+			"report_error",
+			"getOciError"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"NJS-034: invalid (array)",
+			"NJS-033",
+			"",
+			"errInvalidBindArray",
+			"std::runtime_error",
+			"",
+			"MailTest",
+			"\"",
+			"U080000_",
+			"list",
+			"_$canvas",
+			"_$container",
+			"_chart",
+			"'",
+			"databaseShim",
+			"bindingPath",
+			"'",
+			"_SCREENSHOT_DIRECTORY",
+			"'",
+			"isNonEmptyString",
+			"assert.",
+			"(obj)",
+			"function (obj, message)",
+			"'",
+			"_logoff()",
+			"periscope.",
+			"client",
+			"periscope.",
+			"findElementByXPath",
+			"screenshotDirectory",
+			"utilities.",
+			"client",
+			"BASE_URL",
+			"client",
+			"webdriver",
+			"test",
+			"selenium.",
+			"utilities.",
+			"ods_dlg_form_page",
+			"signin_",
+			"sutil.test.",
+			"TEST.",
+			"widget",
+			"putil.config.",
+			"json_sendConfigurationStatus",
+			"restoreLog",
+			"stopLog",
+			"originalConsoleLog",
+			"doNotLog",
+			"windowOnError",
+			"errorHandler",
+			"captureStop",
+			"captureStart",
+			"originalConsoleLog",
+			"__testNamespace__",
+			"booleanProperty",
+			"stringProperty",
+			"numericProperty",
+			"getWeek",
+			"weekpicker",
+			"svg",
+			"$parentContainer",
+			"debugFlag",
+			"rebindTablePlugin",
+			"removeAllClients",
+			"expandAllClients",
+			"getProCliListJSON",
+			"taskRowTemplate",
+			"projectRowTemplate",
+			"nextTaskTemplate",
+			"NEXTTASK",
+			"launcherID",
+			"select2createSearchChoice",
+			"select2formatResult",
+			"select2formatSelection",
+			"select2query",
+			"percentValue",
+			"markTasks",
+			"changeRecalculatedInfoLayout",
+			"recalculatedInfoText",
+			"thisAddData",
+			"$thisAddData",
+			"hiddenID",
+			"displayDateClass",
+			"elementClass",
+			"pkHoPosNo",
+			"apkHoPosNo",
+			"positionData",
+			"extendedRowDom",
+			"loadExtendedData",
+			"loadData",
+			"tempRow",
+			"jsonTemp",
+			"currentRowSelect",
+			"customerID",
+			"parentRow",
+			"sortingTemp",
+			"tableDataCust",
+			"showError",
+			"extendedClass",
+			"openingInProcessRows",
+			"tableData",
+			"tableDataHeader",
+			"tableExtRowTemplate",
+			"tableRowTemplate",
+			"tableHeaderTemplate",
+			"convertPosTypeToID",
+			"convertIDToPosType",
+			"adjustForPosType",
+			"setServcat",
+			"IDToPosType",
+			"posTypeToID",
+			"markNotStartedProject",
+			"notStartedProjectValue",
+			"changeRecalculatedInfoLayout",
+			"recalculatedInfoText",
+			"// \\1",
+			"// ",
+			"TST_DLG_Role",
+			"LAS_SQL_Periscope_UT",
+			"",
+			"agencyid",
+			"",
+			"TRUNK",
+			"taskUtilities",
+			"deployDirCSS",
+			"dstDirCSS",
+			"dstFileCSS"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/njs/src/njsConnection.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16498,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16435,
+								16435
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1176.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/njs/src/njsConnection.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 127567,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35984,
+								35984
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 15970.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "test/PLSQLbinds.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24939,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3298,
+								3298
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 714.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/dpi/src/dpiStmtImpl.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20687,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8561,
+								8561
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3905.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/dpi/include/dpiStmt.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6530,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3680,
+								3692
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1413.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/njs/src/njsMessages.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								698,
+								698
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/njs/src/njsMessages.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2237,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 336.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "node-oracle.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"dht",
+				"libs\\dhtmlx-gantt\\dhtmlxgantt.js"
+			],
+			[
+				"tasks",
+				"build-utilities\\tasks.js"
+			],
+			[
+				"gu",
+				"Gulpfile.js"
+			],
+			[
+				"gulp",
+				"Gulpfile.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\MyDev\\ljs_app\\trunk\\periscope\\build\\periscope.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
